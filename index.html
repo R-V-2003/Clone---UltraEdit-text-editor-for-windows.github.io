@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 80px;
+            margin-right: 10px;
+        }
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-text .main {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo-text .sub {
+            font-size: 12px;
+            color: gray;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(88, 87, 87);
+            position: relative;
+        }
+        .nav a img {
+            height: 10px;
+            margin-left: 5px;
+        }
+        
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+        .icons img {
+            height: 20px;
+            margin-left: 15px;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-text .main {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo-text .sub {
+            font-size: 12px;
+            color: gray;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(88, 87, 87);
+            position: relative;
+        }
+        .nav a img {
+            height: 10px;
+            margin-left: 5px;
+        }
+        
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+        .icons img {
+            height: 20px;
+            margin-left: 15px;
+        }
+        .body {
+           
+            text-align: center;
+            margin: 0;
+            padding-top: 5em;
+        }
+        .container {
+            text-align: center;
+        }
+        .title {
+            font-size: 3em;
+        }
+        
+        .description {
+            font-size: 1em;
+            margin-top: 3.1em ;
+            margin-bottom: 3em;
+        }
+        .button {
+            background-color: #19b4c2;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 7px;
+        }
+        .container2 {
+            display: flex;
+            align-items: center;
+            margin-left: 12em;
+            margin-top: 5em;
+            font-family: Arial, sans-serif;
+        }
+        
+        .text {
+            margin-left: 10px;
+        }
+        .container2 img {
+            height: 60px;
+        }
+        .container2 .text {
+            font-size: 0.8em;
+        }
+        .container2 .text span {
+            
+            
+            font-size: 19px;
+        }
+        .text a {
+            color: #000;
+            text-decoration: none;
+
+            
+        }
+        .card_container {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            
+            
+            
+        }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            
+            gap: 20px;
+            width: 80%;
+            justify-content: center;
+        }
+        .card {
+            background-color: #f2f5f598;
+            
+            width: 290px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            
+        }
+        .card h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 22px;
+            
+            
+        }
+       
+        .card button {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .card button:hover {
+            background-color: #45a049;
+           
+        }
+        hp{
+            font-size: 0.8em;
+            font-weight: lighter;
+            margin-bottom: 22px;
+            
+        }
+      
+        .card p1{
+            font-size: 0.7em;
+            margin-top: 10px;
+            
+          
+        }
+        .card p2{
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 0.5em; 
+           
+            
+        }
+
+        .container3 {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 5em 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 4em;
+        }
+        .c3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 7em;
+        }
+        
+        .newsletter {
+            text-align: center;
+            margin-top: 6em;
+        }
+        .newsletter h1 {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        .newsletter p {
+            font-size: 1.em;
+            margin-top: 10px;
+            width: 27em;
+            line-height: 1.5em;
+        }
+        .subscribe-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+            height: 13.5em;
+            width: 18em;
+
+        }
+        .subscribe-box p {
+            color: rgb(41, 207, 237);
+            font-weight: 1px;
+            font-size: 1.3em;
+        }
+        .subscribe-box span {
+            color: #555;
+            font-size: 0.8em;
+        }
+        .subscribe-box input[type="email"] {
+            width: 80%;
+            height: 30px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .subscribe-box button {
+            background-color: #00c4cc;
+            color: white;
+            height: 3.5em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 80%;
+        }
+        .subscribe-box button:hover {
+            background-color: #009ea3;
+        }
+        .content {
+            background-color: #1a1a1a;
+            color: white;
+            
+        }
+        .content h2 {
+            color: #f0f4f4;
+        }
+        .content a {
+            color: #00c4cc;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        
+        }
+        .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4em ;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.subscribe input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscribe button {
+    padding: 10px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe button:hover {
+    background-color: #0099cc;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.social-icons a {
+    margin: 0 5px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.copyright {
+    margin-left: 5.3em;
+    font-size: 0.7em;
+    color: #666;
+}
+
+    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/UE-Logo-1.jpg" alt="Logo">
+            <div class="logo-text">
+                <div class="main">UltraEdit</div>
+                <div class="sub">An Idera, Inc. Company</div>
+            </div>
+        </div>
+        <nav class="nav">
+            <a href="#">Products <img src="down.png" alt=""></a>
+            <a href="#">For business <img src="down.png" alt=""></a>
+            <a href="#">Resources <img src="down.png" alt=""></a>
+            <a href="#">Support <img src="down.png" alt=""></a>
+            <a href="#">Our company <img src="down.png" alt=""></a>
+            <div class="icons">
+                <img src="images/language.png" alt="Language Icon">
+                <img src="images/magnifier.png" alt="Search Icon">
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="container">
+            <div class="title">Download <span style="font-weight: bold;">UltraEdit</span> for Windows  <img src="images/Reviews.png" alt="Read our reviews"></div>
+    
+                <!-- Placeholder for image -->
+               
+            
+            <div class="description">
+                Download and try <b>UltraEdit</b> before you buy it! This download includes the full Windows <br> version of the text editor.
+            </div>
+            <a href="path_to_mac_or_linux_version" class="button">DOWNLOAD MAC OR LINUX VERSION</a>
+        </div>
+    </div>
+    <div class="container2">
+        <img src="images/UE-Logo-1.jpg" alt="Logo">
+        <div class="text">
+            <span>Download UltraEdit</span> v2024.2 (released 2025-01-15) | <a href="#">Hotfix information</a>
+        </div>
+    </div>
+    <div class="card_container">
+        <div class="cards">
+        <div class="card">
+            <h2 style="margin-bottom: 40px;">English</h2>
+            <hp></hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>Deutsch</h2>
+            <hp>German</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>Italiano</h2>
+            <hp>Italian</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>Español</h2>
+            <hp>Spanish</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>français</h2>
+            <hp>French</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>Português brasileiro</h2>
+            <hp>Brazilian Portuguese</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>日本</h2>
+            <hp>Japanese</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>한국어</h2>
+            <hp>Korean</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>华语</h2>
+            <hp>Chinese</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card">
+            <h2>華語</h2>
+            <hp>Traditional Chinese</hp>
+            <button>Download 64-bit</button>
+            <p1>SHA256</p1>
+            <p2>B06BC2BB50623A7B1A1C0CD217A6BB5346515A95FF2CDE19A60<br>EEE36D7C0E</p2>
+        
+        </div>
+        <div class="card" style="background-color: white;">
+           
+        
+        </div>
+        <div class="card" style="background-color: white;">
+            
+        
+        </div>
+        
+        </div>
+    </div>
+        <div class="container3 ">
+
+            <div class="c3">
+            <div class="newsletter">
+                <h1>Join the UltraEdit newsletter</h1>
+                <p>Sign up for our newsletter and receive emails for the latest news, blogs, and special deals on UltraEdit.</p>
+            </div>
+            <div class="subscribe-box">
+                <p>Subscribe to our emails</p>
+                <span>Enter email address</span>
+                <input type="email">
+                <button>SIGN UP</button>
+            </div>
+        </div>    
+        <div class="content">
+            <h2>EXE or MSI?</h2>
+            <p>The EXE builds of our products are the preferred download for most of our users, running Windows 8.1 and later.</p>
+            <p>We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.). <a href="#">Get the UltraEdit MSI installer.</a></p>
+            <h2>Free trial period</h2>
+            <p>This application comes with a free, fully functional 30 day trial period. After the trial period expires, you must <a href="#">purchase a license</a> to continue using it.</p>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-column">
+                <h3>What's your language?</h3>
+                <ul>
+                    <li>Code editor (General)</li>
+                    <li>Text editor</li>
+                    <li>Hex/Binary</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Unix shell scripts</li>
+                    <li>PL/SQL</li>
+                    <li>EDI</li>
+                    <li>C++</li>
+                    <li>PHP</li>
+                    <li>XML</li>
+                    <li>Markdown</li>
+                    <li>SAS</li>
+                    <li>Visual Basic (VB)</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>What do you need to do?</h3>
+                <ul>
+                    <li>Edit large text files</li>
+                    <li>Use secure and compliant software</li>
+                    <li>Work with unique languages and formats</li>
+                    <li>Edit hex and binary files</li>
+                    <li>Reformat XML/JSON files</li>
+                    <li>Massive find and replace operations</li>
+                    <li>Edit via columns/blocks</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>What type of user are you?</h3>
+                <ul>
+                    <li>Programmer / Developer</li>
+                    <li>Web Developer</li>
+                    <li>Database Manager</li>
+                    <li>System Administrator</li>
+                    <li>Technical Writer</li>
+                    <li>Editor / Publisher</li>
+                    <li>Medical / Pharmaceutical</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>General</h3>
+                <ul>
+                    <li>Contact</li>
+                    <li>License Agreement (EULA)</li>
+                    <li>End of Life Policy</li>
+                    <li>Libraries and Patents</li>
+                    <li>Information Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Uninstall Instructions</li>
+                    <li>Sitemap</li>
+                    <li>Legal</li>
+                    <li>Software Security</li>
+                </ul>
+            </div>
+            <div class="footer-column subscribe">
+                <h3>Subscribe to Newsletter</h3>
+                <p>Get the latest news on new releases, events, and developments.</p>
+                <input type="email" placeholder="Enter your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="footer1">
+            <div class="logo">
+                <img src="images/UE-Logo-1.jpg" alt="Logo">
+                <div class="logo-text">
+                    <div class="main">UltraEdit</div>
+                    <div class="sub">An Idera, Inc. Company</div>
+                </div>
+            </div>
+            <div class="social-icons">
+
+
+                <a href="#"><img src="twitter.png" alt="Social Icon 1"></a>
+                <a href="#"><img src="github.png" alt="Social Icon 2"></a>
+                <a href="#"><img src="youtube.png" alt="Social Icon 3"></a>
+                <a href="#"><img src="facebook-app-symbol.png" alt="Social Icon 3"></a>
+                <a href="#"><img src="instagram.png" alt="Social Icon 3"></a>
+                <a href="#"><img src="linkedin.png" alt="Social Icon 3"></a>
+                <a href="#"><img src="reddit.png" alt="Social Icon 3"></a>
+            </div>
+
+            <!-- Add more social icons as needed -->
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 UltraEdit. All rights reserved.</p>
+        </div>
+</body>
+</html>
